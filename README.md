@@ -6,7 +6,9 @@ Usage
 const {isTodayHoliday} = require("nse_holidays");
 
 async function check(){
+
   return await isTodayHoliday();
+  
 } //returns an object {isHoliday:true,Holiday:"Republic Day"} or {isHoliday:false,Holiday:"no holiday"}
 
 # Note
